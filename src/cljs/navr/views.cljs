@@ -4,6 +4,10 @@
             ))
 
 
+(defn navigation []
+  )
+
+
 ;; home
 
 (defn home-panel []
@@ -32,4 +36,6 @@
 
 (defn main-panel []
   (let [active-panel (re-frame/subscribe [::subs/active-panel])]
-    [show-panel @active-panel]))
+    [:div
+      [navigation]
+      [show-panel @active-panel]]))
