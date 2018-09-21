@@ -1,3 +1,36 @@
 body {
-  color: red;
+  color: #222;
+}
+
+.task {
+  border-bottom: 2px solid #e0e0e0;
+  width: 100%;
+  border-collapse: collapse;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  padding-right: 15px;
+  display: flex;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.task header {
+  background-color: #FFEEDB;
+  font-weight: bold;
+  padding-tpo: 8px;
+  padding-buttom: 8px;
+}
+
+.task .text {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+  width: 180px;
+}
+
+.task .num {
+  width: 80px;
 }

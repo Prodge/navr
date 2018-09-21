@@ -35,7 +35,7 @@
    {:dependencies [[binaryage/devtools "0.9.4"]
                    [cljsjs/d3 "4.3.0-5"]
                    [day8.re-frame/trace "0.1.7"]
-                   
+
                    [re-frisk "0.5.0"]]
 
     :plugins      [[lein-figwheel "0.5.13"]
